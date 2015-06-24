@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   if (RUBY_PLATFORM == 'java')
     s.add_dependency  'therubyrhino', '~> 1.73.4'
   else
-    s.add_dependency  'therubyracer', '~> 0.10.2'
+    s.add_dependency  'therubyracer', '~> 0.12.0'
   end
   
   s.add_runtime_dependency     'less-rails', '~> 2.2.3'
